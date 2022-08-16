@@ -12,5 +12,5 @@ while (s > 1) {
      m *= 10;
      s--;
 }
-int t = (x % m) + (x / (m * 10)) * m;
-Console.WriteLine(t);
+int o = (x % m) + (x / (m * 10)) * m;
+Console.WriteLine(o);
